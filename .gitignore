@@ -1,1 +1,30 @@
+<<<<<<< HEAD
 .DS_Store
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data Processing Junk
+# Ignores raw CSVs or large DLY files if you happen to keep them locally
+*.csv
+*.dly
+*.gz
+!data/county_populations.csv
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Shiny/Python temp files
+.shiny/
+>>>>>>> 3e579c8618163b8568c85b316c8598f89829a288
