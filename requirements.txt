@@ -1,0 +1,18 @@
+# Python Shiny Web Framework
+shiny
+
+# Interactive Widget Integration
+shinywidgets
+
+# Data Manipulation & Analysis
+pandas
+numpy
+
+# Optimized Parquet Support
+pyarrow
+
+# Interactive Data Visualization
+plotly
+
+# HTTP Client for Live NWS Alerts
+requests
