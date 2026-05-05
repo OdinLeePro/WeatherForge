@@ -52,12 +52,12 @@ The workflow includes:
 │   ├── ghcn_dly_to_csv.py
 │   └── ghcnd-stations.txt
 ├── Documents/
-│   ├── WeatherForge_Demo.gif
 │   ├── WeatherForge_LiveFeed_FutureChange.pdf
 │   └── WeatherForge_StateChange_Guide.pdf
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+│   WeatherForge_DemoVideo.gif
 ├── app.py
 ├── geo_utils.py
 └── requirements.txt
