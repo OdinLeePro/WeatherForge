@@ -38,26 +38,27 @@ The workflow includes:
 
 ```text
 /WeatherForge
-├── data/
+├── Data/
 │   ├── county_populations.csv
 │   ├── mn_counties.geojson
 │   ├── storm_events_mn.parquet
 │   ├── storm_weather_summary_mn.parquet
 │   └── weather_daily_mn.parquet
-├── docs/
-│   ├── WeatherForge_LiveFeed_FutureChange.pdf
-│   └── WeatherForge_StateChange_Guide.pdf
-├── pipeline/
+├── DataPreprocessing/
 │   ├── batch_convert_dly.sh
 │   ├── convert_mn_to_parquet.py
 │   ├── create_storm_weather_summary.py
 │   ├── filter_mn_storm_events.py
 │   ├── ghcn_dly_to_csv.py
 │   └── ghcnd-stations.txt
+├── Documents/
+│   ├── WeatherForge_LiveFeed_FutureChange.pdf
+│   └── WeatherForge_StateChange_Guide.pdf
 ├── .gitignore
+├── LICENSE
+├── README.md
 ├── app.py
 ├── geo_utils.py
-├── README.md
 └── requirements.txt
 ```
 
